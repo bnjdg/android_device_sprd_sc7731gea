@@ -1,22 +1,21 @@
-##Device configuration for Samsung Galaxy Grand Prime VE SPRD SM-G531H (grandprimeve3g)
+##Device configuration for MyPhone My28/My28s
 
 =====================================
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Quad-core 1,3GHz Cortex-A7
-CHIPSET | Spreadtrum SC7730SE sc8830
-GPU     | Mali-400MP2
-Memory  | 1 GB
-Shipped Android Version | Android 5.1.1 with TouchWiz Essence
-Storage | 8 GB
-MicroSD | Up to 64 GB
-Battery | 2600 mAh Li-Ion (removable)
+CPU     | Quad-core 1.2GHz Cortex-A7
+CHIPSET | Spreadtrum SC7731GEA
+GPU     | Mali-400
+Memory  | 512 MB
+Shipped Android Version | Android 5.1.1 / Android 6.0
+Storage | 4/8 GB
+MicroSD | up to 32 GB
+Battery | 1450 mAh Li-Ion (removable)
 Dimensions | 144.8 x 72.1 x 8.6 mm
-Display | 540 x 960 pixels, 5.0"
-Rear Camera  | 8.0 MP, LED flash
-Front Camera | 5.0 MP
-Release Date | June 2015
+Display | WVGA 480 x 800 pixels, 4.0"
+Rear Camera  | 5.0 MP, LED flash
+Front Camera | 2.0 MP
 
 ##Building instructions
 
@@ -26,6 +25,6 @@ Release Date | June 2015
 
 ### Building steps
 * 1. Sync Android source
-* 2. Copy this file ([grandprimeve3g.xml](https://github.com/koquantam/android_local_manifests/blob/cm-14.1-grandprimeve3g/grandprimeve3g.xml)) to `.repo/local_manifests` (if that folder doesn't exist then "mkdir" it)
+* 2. Copy this file ([my28s.xml](https://github.com/bjdag1234/android_local_manifests/cm14.1-my28s/my28s.xml)) to `.repo/local_manifests` (if that folder doesn't exist then "mkdir" it)
 * 3. `repo sync` again
-* 5. After sync, type `. build/envsetup.sh && brunch grandprimeve3g`
+* 5. After sync, type `. build/envsetup.sh && brunch my28s`

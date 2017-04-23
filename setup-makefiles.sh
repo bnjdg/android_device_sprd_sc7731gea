@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=samsung
-DEVICE=grandprimeve3g
+VENDOR=sprd
+DEVICE=sc7731gea
 OUTDIR=vendor/$VENDOR/$DEVICE
 
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
